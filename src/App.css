@@ -1,0 +1,105 @@
+* {
+  text-align: center;
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 740px) {
+  .App {
+    max-width: 740px;
+    margin: 0 auto;
+  }
+}
+header {
+  font-size: 25px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.btnOnBlocks {
+  border: none;
+  background-color: transparent;
+  color: red;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 550;
+}
+#todayButton {
+  margin-top: 15px;
+}
+.currentDay {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  width: 25px;
+  margin-left: 30px;
+}
+#header {
+  margin-right: 350px;
+}
+.addTodoButton {
+  border: none;
+  background-color: transparent;
+  color: red;
+  cursor: pointer;
+  font-size: 30px;
+}
+.day_of_the_week,
+.date_of_the_month {
+  display: grid;
+  grid-template-columns: 12% 12% 12% 12% 12% 12% 12% 12%;
+  padding-top: 10px;
+}
+.month_selector {
+  display: grid;
+  grid-template-columns: 12% 8% 72% 8%;
+  padding: 10px;
+}
+.time_block {
+  display: grid;
+  grid-template-columns: 12% 88%;
+}
+.timing {
+  display: grid;
+  grid-template-rows: 15px repeat(12, 55px);
+  color: #c0c0c0;
+}
+.time_selection_block {
+  display: grid;
+  grid-template-rows: 20px repeat(12, 55px);
+}
+
+.date_block {
+  background-color: #f6f6f6;
+  font-weight: 550;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}
+.time_for_note_9 > div {
+  border: 1px solid aqua;
+  width: 20px;
+  height: 20px;
+}
+.footer {
+  background-color: #f6f6f6;
+  height: 70px;
+  display: grid;
+  grid-template-columns: 40% 70%;
+}
+.test {
+  display: grid;
+}
+.display {
+  display: inline;
+  border: none;
+  background-color: transparent;
+  color: red;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 550;
+  margin-top: 15px;
+  margin-left: 250px;
+  width: 50px;
+}
+.dontdisplay {
+  display: none;
+}
